@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class AuthService {
-  private apiUrl = 'http://localhost:3000'; // Replace with your server API URL
+  private apiUrl = 'https://hrmback.onrender.com'; // Replace with your server API URL
 
   constructor(private http: HttpClient) { }
 
